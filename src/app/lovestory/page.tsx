@@ -31,11 +31,11 @@ export default function page() {
 
             <StorySectionRight title="Our first christmas" date="25 December 2022" description="After a lovely meal, Scott got the kids and everyone around..." imgSrc="/christmas.jpg" imgAlt="Christmas" />
 
-            <StorySectionLeft title="TODO" date="25 December 2022" description="The Day their own Family started they got Hunter their American Akita." imgSrc="/ariaalexdog.jpeg" imgAlt="Aria and Alex with Hunter" />
+            <StorySectionLeft title="First time on the bike" date="25 December 2022" description="The Day their own Family started they got Hunter their American Akita." imgSrc="/ariaalexdog.jpeg" imgAlt="Aria and Alex with Hunter" />
 
             <StorySectionRight title="Engagement - She Said Yes!!" date="08 April 2023" description="After taking a trip up to gaydon to see some friends scott knew today was the day he would ask dee to marry him. After a lovely meal Scott got the kids and everyone around, While getting on one knee and proposing, after dee saying Fuck off a lot Asshole a lot asking dee to marry Scott." imgSrc='/Engagement.jpg' imgAlt='Engagment photo' />
 
-            {/* Section for telling people there is soo many more memerys to come */}
+            {/* Section for telling people there is soo many more memorys to come */}
 
             <div className="text-center gap-8 border-2 border-dashed border-pink-400">
                 <h6 className='text-pink-500'>Celebrate</h6>

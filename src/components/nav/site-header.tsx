@@ -1,13 +1,9 @@
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
-// import { CommandMenu } from "@/components/command-menu"
-// import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/nav/main-nav"
 import { MobileNav } from "@/components/nav/mobile-nav"
 import { ModeToggle } from "@/components/mode-toggle"
-import { buttonVariants } from "@/components/ui/button"
 
 export function SiteHeader() {
   return (
@@ -15,10 +11,16 @@ export function SiteHeader() {
       <div className=" flex h-14 justify-between items-center">
         <MainNav />
         <MobileNav />
-        <nav className="flex items-center">
-
+        <div className="md:hidden justify-center">
+          <Link href="/" className="flex items-center space-x-2">
+            <span className=" md:hidden font-bold ">
+              {siteConfig.name}
+            </span>
+          </Link>
+        </div>
+        <div className="flex items-center">
           <ModeToggle />
-        </nav>
+        </div>
       </div>
     </div>
   )
